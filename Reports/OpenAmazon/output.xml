@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.0 on win32)" generated="2026-01-03T23:34:38.658882" rpa="false" schemaversion="5">
+<suite id="s1" name="FIrstTest" source="C:\Users\yashr\PycharmProjects\RobotFramework\Test\FIrstTest.robot">
+<test id="s1-t1" name="First Test" line="10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-03T23:34:38.692588" level="INFO">Hello</msg>
+<arg>${first_variable}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-03T23:34:38.692305" elapsed="0.000332"/>
+</kw>
+<status status="PASS" start="2026-01-03T23:34:38.691770" elapsed="0.001051"/>
+</test>
+<doc>First test</doc>
+<status status="PASS" start="2026-01-03T23:34:38.659955" elapsed="0.033177"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="FIrstTest" id="s1" pass="1" fail="0" skip="0">FIrstTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-01-03T23:34:38.690617" level="ERROR">Error in file 'C:\Users\yashr\PycharmProjects\RobotFramework\Test\FIrstTest.robot' on line 3: Resource setting requires value.</msg>
+<msg time="2026-01-03T23:34:38.690913" level="ERROR">Error in file 'C:\Users\yashr\PycharmProjects\RobotFramework\Test\FIrstTest.robot' on line 4: Library setting requires value.</msg>
+</errors>
+</robot>
